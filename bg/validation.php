@@ -91,7 +91,7 @@ return array(
 
 	'attributes' => array(
 		"name" => "Име",
-		"username" => "Потребителско име",
+		"username" => "Потребител",
 		"email" => "E-mail",
 		"first_name" => "Име",
 		"last_name" => "Фамилия",
@@ -118,7 +118,9 @@ return array(
 		"time" => "Време",
 		"available" => "Достъпен",
 		"size" => "Размер",
-		"recaptcha_response_field" => "РеКапча"
+		"recaptcha_response_field" => "Рекапча",
+		"subject" => "Заглавие",
+		"message" => "Съобщение"
 	),
 
 );
