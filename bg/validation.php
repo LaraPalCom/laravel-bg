@@ -63,6 +63,7 @@ return array(
 	),
 	"unique"           => "Полето :attribute вече съществува.",
 	"url"              => "Полето :attribute е в невалиден формат.",
+	"recaptcha" => 'Стойността на :attribute е неправилна.',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -88,6 +89,36 @@ return array(
 	|
 	*/
 
-	'attributes' => array(),
+	'attributes' => array(
+		"name" => "Име",
+		"username" => "Потребителско име",
+		"email" => "E-mail",
+		"first_name" => "Име",
+		"last_name" => "Фамилия",
+		"password" => "Парола",
+		"city" => "Град",
+		"country" => "Държава",
+		"address" => "Адрес",
+		"phone" => "Телефон",
+		"mobile" => "GSM",
+		"age" => "Възраст",
+		"sex" => "Пол",
+		"gender" => "Пол",
+		"day" => "Ден",
+		"month" => "Месец",
+		"year" => "Година",
+		"hour" => "Час",
+		"minute" => "Минута",
+		"second" => "Секунда",
+		"title" => "Заглавие",
+		"content" => "Съдържание",
+		"description" => "Описание",
+		"excerpt" => "Откъс",
+		"date" => "Дата",
+		"time" => "Време",
+		"available" => "Достъпен",
+		"size" => "Размер",
+		"recaptcha_response_field" => "РеКапча"
+	),
 
 );
