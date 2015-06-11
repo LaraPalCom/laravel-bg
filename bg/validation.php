@@ -69,6 +69,7 @@ return array(
         "string"  => "Полето :attribute трябва да бъде :size знака.",
         "array"   => "Полето :attribute трябва да има :size елемента."
     ),
+    "string"           => "Полето :attribute трябва да бъде знаков низ.",
     "timezone"         => "Полето :attribute трябва да съдържа валидна часова зона.",
     "unique"           => "Полето :attribute вече съществува.",
     "url"              => "Полето :attribute е в невалиден формат.",
