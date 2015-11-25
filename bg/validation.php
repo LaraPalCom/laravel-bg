@@ -60,6 +60,7 @@ return [
     "regex"            => "Полето :attribute е в невалиден формат.",
     "required"         => "Полето :attribute е задължително.",
     "required_if"      => "Полето :attribute се изисква, когато :other е :value.",
+    'required_unless' => 'Полето :attribute се изисква, освен ако :other не е :values.',
     "required_with"    => "Полето :attribute се изисква, когато :values има стойност.",
     "required_with_all" => "Полето :attribute е задължително, когато :values имат стойност.",
     "required_without" => "Полето :attribute се изисква, когато :values няма стойност.",
