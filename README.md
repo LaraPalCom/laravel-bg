@@ -9,4 +9,4 @@
 
 ### Лиценз
 
-[Creative Commons 3.0](http://creativecommons.org/licenses/by-sa/3.0/deed.en)
+[MIT license](http://opensource.org/licenses/MIT)
