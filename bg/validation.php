@@ -39,10 +39,12 @@ return [
     "filled"           => "Полето :attribute е задължително.",
     "image"            => "Полето :attribute трябва да бъде изображение.",
     "in"               => "Избраното поле :attribute е невалидно.",
-    'in_array'         => 'Полето :attribute липсва в :other.',
+    "in_array"         => "Полето :attribute липсва в :other.",
     "integer"          => "Полето :attribute трябва да бъде цяло число.",
-    "ip"               => "Полето :attribute трябва да бъде IP адрес.",
-    'json'             => 'Полето :attribute трябва да бъде JSON низ.',
+    "ip"               => "Полето :attribute трябва да бъде валиден IP адрес.",
+    "ipv4"             => "Полето :attribute трябва да бъде валиден IPv4 адрес.",
+    "ipv6"             => "Полето :attribute трябва да бъде валиден IPv6 адрес.",
+    "json"             => "Полето :attribute трябва да бъде JSON низ.",
     "max"              => [
         "numeric" => "Полето :attribute трябва да бъде по-малко от :max.",
         "file"    => "Полето :attribute трябва да бъде по-малко от :max килобайта.",
@@ -61,7 +63,7 @@ return [
     "regex"                 => "Полето :attribute е в невалиден формат.",
     "required"              => "Полето :attribute е задължително.",
     "required_if"           => "Полето :attribute се изисква, когато :other е :value.",
-    'required_unless'       => 'Полето :attribute се изисква, освен ако :other не е :values.',
+    "required_unless"       => "Полето :attribute се изисква, освен ако :other не е :values.",
     "required_with"         => "Полето :attribute се изисква, когато :values има стойност.",
     "required_with_all"     => "Полето :attribute е задължително, когато :values имат стойност.",
     "required_without"      => "Полето :attribute се изисква, когато :values няма стойност.",
@@ -89,9 +91,9 @@ return [
     |
     */
 
-    'custom' => [
-        'attribute-name' => [
-            'rule-name'  => 'custom-message',
+    "custom" => [
+        "attribute-name" => [
+            "rule-name"  => "custom-message",
         ],
     ],
 
@@ -106,7 +108,7 @@ return [
     |
     */
 
-    'attributes' => [
+    "attributes" => [
             "name"                      => "Име",
             "username"                  => "Потребител",
             "email"                     => "E-mail",
