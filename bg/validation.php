@@ -110,7 +110,7 @@ return [
 
     "attributes" => [
             "name"                      => "Име",
-            "username"                  => "Потребител",
+            "username"                  => "Потребителско име",
             "email"                     => "E-mail",
             "first_name"                => "Име",
             "last_name"                 => "Фамилия",
